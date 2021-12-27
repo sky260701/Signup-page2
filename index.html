@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.LueurTech Software solutions</title>
+    <link rel="stylesheet" href="sign.css">
+
+</head>
+<body>
+   <h1> LUEURTECH SOFTWARE SOLUTIONS </h1>
+   <nav>
+       <a href="#"> HOME</a>
+       <a href="#"> LOGIN</a>
+       <a href="page1.html"  target="blank"> SIGNUP</a>
+   </nav>
+   <br>
+
+   <form action="#">
+       <h2>SIGN UP </h2>
+       <p> Full Name * :  <input type="text" name="fullname" required></p>
+       <fieldset>
+           <legend> Select Gender *</legend>
+       <p>
+           Male  <input type="radio" name="gender" id="" required>
+           Female  <input type="radio" name="gender" id="" required>
+       </p>
+    </fieldset>
+       <p> Username * : <input type="text" name="username" required></p>
+       <p> Password * : <input type="password" name="password" required placeholder="8 characters only" maxlength="8"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  ></p>
+       <p> E-mail * : <input type="email" name="email" required placeholder="abc1234@gmail.com"></p>
+       <p>your city :
+           <select name="city" id="city">
+               <option value=""> --citiies--</option>
+               <option value="mumbai"> MUMBAI</option>
+               <option value="delhi"> DELHI</option>
+               <option value="kanpur"> KANPUR</option>
+               <option value="pune"> PUNE</option>
+               <option value="others"> OTHERS</option>
+           </select>
+       </p>
+      <input type="submit" value="Submit">   <input type="reset" value="Reset">
+   </form>
+
+
+
+    
+</body>
+</html>
